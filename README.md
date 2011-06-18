@@ -9,5 +9,5 @@ It is licensed under the Apache 2 license
 
 ## Japanease
 
-**�g����:** �ǂݍ��ނ�����html5����ǉ����ꂽplaceholder�����ɖ��Ή��̃u���E�U�ɂ������@�\��񋟂ł��܂��B
+**使い方:** 読み込むだけでhtml5から追加されたplaceholder属性に未対応のブラウザにも同じ機能を提供できます。
 

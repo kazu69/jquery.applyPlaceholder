@@ -2,7 +2,7 @@ $(document).ready(function(){
     (function($){
     
         //placeholderが使えるかチェック
-        //if( 'placeholder' in document.createElement('input') ) return false;
+        if( 'placeholder' in document.createElement('input') ) return false;
     
         //input textarea 要素からplaceholderの値を取得
         var o = $('input[type="text"],textarea');
