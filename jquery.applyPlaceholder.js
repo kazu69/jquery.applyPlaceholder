@@ -5,7 +5,7 @@ $(document).ready(function(){
         if( 'placeholder' in document.createElement('input') ) return false;
     
         //input textarea 要素からplaceholderの値を取得
-        var o = $('input[type="text"],textarea');
+        var o = $('input[type="text"],input[type="number"],input[type="tel"],input[type="email"],input[type="url"],textarea');
         var data = {};
     
         o.each(function(){
