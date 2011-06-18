@@ -10,8 +10,10 @@ $(document).ready(function(){
     
         o.each(function(){
             //初期設定
-            $.data(this, 'placeholder', $(this).attr('placeholder'));
-            $(this).val($(this).attr('placeholder'));
+            if($(this).val() == ''){
+                $.data(this, 'placeholder', $(this).attr('placeholder'));
+                $(this).val($(this).attr('placeholder'));
+            }
     
             //focus時
             $(this).bind('focus', function(){
